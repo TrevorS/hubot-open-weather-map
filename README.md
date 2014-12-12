@@ -10,8 +10,8 @@ In the Hubot project repo, run:
 
 Then add **hubot-open-weather-map** to your `external-scripts.json`:
 
-``json
-["hubot-open-weather-map"]
+```json
+['hubot-open-weather-map']
 ```
 
 ## Configuration
@@ -21,7 +21,7 @@ Then add **hubot-open-weather-map** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-``
+```
 TrevorS> hubot weather Savannah, GA
 hubot> It is currently 54.81°F in Savannah.
 
