@@ -14,9 +14,19 @@ Then add **hubot-open-weather-map** to your `external-scripts.json`:
 ["hubot-open-weather-map"]
 ```
 
+## Configuration
+
+* HUBOT_OPEN_WEATHER_MAP_URL - An alternative OpenWeatherMap URL
+* HUBOT_OPEN_WEATHER_MAP_DEFAULT_CITIES - A `;` delimited list of default cities.
+
 ## Sample Interaction
 
 ``
-user1>> hubot weather Savannah, GA
-hubot>> It is currently 54.81°F in Savannah.
+TrevorS> hubot weather Savannah, GA
+hubot> It is currently 54.81°F in Savannah.
+
+TrevorS> hubot weather
+hubot> It is currently 59.36°F in Norcross.
+hubot> It is currently 80.60°F in Georgetown.
+hubot> It is currently 54.81°F in Savannah.
 ```
