@@ -11,7 +11,7 @@ In the Hubot project repo, run:
 Then add **hubot-open-weather-map** to your `external-scripts.json`:
 
 ```json
-['hubot-open-weather-map']
+["hubot-open-weather-map"]
 ```
 
 ## Configuration
