@@ -2,6 +2,8 @@
 
 Get weather information using OpenWeatherMap for Hubot.
 
+[![Build Status](https://travis-ci.org/TrevorS/hubot-open-weather-map.svg?branch=master)](https://travis-ci.org/TrevorS/hubot-open-weather-map)
+
 ## Installation
 
 In the Hubot project repo, run:
