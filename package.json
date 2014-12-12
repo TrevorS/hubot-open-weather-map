@@ -1,0 +1,39 @@
+{
+  "name": "hubot-open-weather-map",
+  "description": "Get weather information using OpenWeatherMap for Hubot.",
+  "version": "0.0.1",
+  "author": "Trevor Strieber <trevor@strieber.org>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "weather"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/TrevorS/hubot-open-weather-map"
+  },
+
+  "bugs": {
+    "url": "https://github.com/TrevorS/hubot-open-weather-map/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
