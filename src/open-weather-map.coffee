@@ -20,7 +20,7 @@
 
 weatherURL = process.env.HUBOT_OPEN_WEATHER_MAP_URL or 'http://api.openweathermap.org/data/2.5/weather?q='
 cities     = process.env.HUBOT_OPEN_WEATHER_MAP_DEFAULT_CITIES
-apiKey = process.env.HUBOT_OPEN_WEATHER_MAP_APIKEY
+apiKey     = process.env.HUBOT_OPEN_WEATHER_MAP_APIKEY
 
 module.exports = (robot) ->
   robot.respond /weather help$/i, (msg) ->
