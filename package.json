@@ -1,7 +1,7 @@
 {
   "name": "hubot-open-weather-map",
   "description": "Get weather information using OpenWeatherMap for Hubot.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Trevor Strieber <trevor@strieber.org>",
   "license": "MIT",
 
