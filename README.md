@@ -21,6 +21,7 @@ Then add **hubot-open-weather-map** to your `external-scripts.json`:
 * HUBOT_OPEN_WEATHER_MAP_APIKEY - required API key from http://openweathermap.org/faq#error401
 * HUBOT_OPEN_WEATHER_MAP_URL - An alternative OpenWeatherMap URL
 * HUBOT_OPEN_WEATHER_MAP_DEFAULT_CITIES - A `;` delimited list of default cities.
+* HUBOT_OPEN_WEATHER_MAP_UNITS (optional) - imperial, metric
 
 ## Sample Interaction
 
