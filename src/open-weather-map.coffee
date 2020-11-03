@@ -60,8 +60,7 @@ module.exports = (robot) ->
           msg.send "Encountered an error :( #{err}"
           return
         json = JSON.parse body
-        msg.send "today we will have #{json.list[0].main.temp} #{named_unit} with #{json.list[0].weather[0].description} and feels like #{json.list[0].main.feels_like} #{named_unit}.\n Tomorrow we will have #{json.list[1].main.temp} #{named_unit} with #{json.list[1].weather[0].description} and feels like #{json.list[0].main.feels_like} #{named_unit}.\n The day after we will have #{json.list[2].main.temp} #{named_unit} with #{json.list[2].weather[0].description} and feels like #{json.list[2].main.feels_like} #{named_unit}"
-
+        msg.send "today we will have #{json.list[0].main.temp} #{named_unit} with #{json.list[0].weather[0].description} and feels like #{json.list[0].main.feels_like} #{named_unit}.\n Tomorrow we will have #{json.list[1].main.temp} #{named_unit} with #{json.list[1].weather[0].description} and feels like #{json.list[1].main.feels_like} #{named_unit}.\n The day after we will have #{json.list[2].main.temp} #{named_unit} with #{json.list[2].weather[0].description} and feels like #{json.list[2].main.feels_like} #{named_unit}.
   named_unit = switch
     when units == "metric" then "°C"
     when units == "imperial" then "°F"
