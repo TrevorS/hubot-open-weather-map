@@ -30,7 +30,7 @@ units      = process.env.HUBOT_OPEN_WEATHER_MAP_UNITS or 'imperial'
 
 module.exports = (robot) ->
   robot.respond /weather help$/i, (msg) ->
-    msg.send 'Usage: hubot weather or hubot weather <city> or hubot forecast <city for forecast'
+    msg.send 'Usage: hubot weather or hubot weather <city> or hubot forecast <city> for forecast'
     msg.finish()
 
   robot.respond /weather (.*)/i, (msg) ->
