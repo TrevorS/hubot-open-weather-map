@@ -7,6 +7,7 @@
 # Configuration:
 #   HUBOT_OPEN_WEATHER_MAP_APIKEY = required API key from http://openweathermap.org/faq#error401
 #   HUBOT_OPEN_WEATHER_MAP_URL (optional)
+#   HUBOT_OPEN_WEATHER_MAP_FIND_COORDINATES (optional)
 #   HUBOT_OPEN_WEATHER_MAP_FORECAST_URL (optional)
 #   HUBOT_OPEN_WEATHER_MAP_DEFAULT_CITIES (optional)
 #   HUBOT_OPEN_WEATHER_MAP_UNITS (optional) imperial, metric
@@ -26,7 +27,6 @@
 weatherURL = process.env.HUBOT_OPEN_WEATHER_MAP_URL or 'http://api.openweathermap.org/data/2.5/weather?q='
 findWeatherCoordinatesURL = process.env.HUBOT_OPEN_WEATHER_MAP_FIND_COORDINATES or 'http://api.openweathermap.org/data/2.5/find?q='
 forecastURL = process.env.HUBOT_OPEN_WEATHER_MAP_FORECAST_URL or 'http://api.openweathermap.org/data/2.5/onecall?'
-coordinates = process.env.HUBOT_OPEN_WEATHER_MAP_DEFAULT_COORDINATES
 cities     = process.env.HUBOT_OPEN_WEATHER_MAP_DEFAULT_CITIES
 apiKey     = process.env.HUBOT_OPEN_WEATHER_MAP_APIKEY
 units      = process.env.HUBOT_OPEN_WEATHER_MAP_UNITS or 'imperial'
